@@ -1,0 +1,201 @@
+<title> 
+Es el nombre que aparece en la pestaña de la pagina web, esta dentro del <head>
+
+<nav>
+Es una etiqueta que indica que es una barra de navegación, esta dentro del <header>
+
+<ol>
+Lista ordenada, enumera los ítems de la lista
+<ul>
+Lista no ordenada, no enumera sino que pone viñeta
+<li>
+List ítem, se usa para poner enlaces o anclas
+<a href=""....
+Esta es el ancla o enlace
+
+<section>
+Es para separar la pagina por secciones
+
+<br/>
+Es para dar un salto de linea
+
+<strong>
+Es para poner en negrita el texto que va adentro
+
+<img>
+Etiqueta para poner imágenes
+
+<img src="" alt="">
+src= ruta de la imagen
+alt= description alternativa
+
+<img src="images/logo.png" alt="Imagen de Logo">
+La carpeta images esta en la misma carpeta del índex.html
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+Con esta linea le ponemos un icono a la pestaña de la pagina web, la imagen esta en la carpeta de images
+
+<form action="/suscripcion/"></form>
+Para hacer formularios, un formulario es donde uno puede meter texto en una caja, para llenar formularios etc
+
+ <input type="text" placeholder="Dejame tu Email">
+Que tipo de información queremos recibir en ese campo, en este caso es un texto, va dentro del <form>
+Place holder, es para que en el campo de texto aparezca un texto por debajo para que el usuario vea lo que debe escribir
+
+<button>Enviar</button>
+Boton con el que vamos a enviar la información que es lo mismo que
+<input type="submit" value="texto del boton">
+De esta manera tenemos el mismo botón pero de otra forma de codificarlo
+
+<label for="email">Dejame tu email</label>
+Esta etiqueta se pone al lado del cuadro de texto, si le damos click nos hace Focus en el formulario, pero le debemos poner en el for el id del button
+
+<a href="#portafolio">Portafolio</a>
+Con esto le ponemos a ese tag a que nos lleve a una parte de la pagina donde esta relacionada según el titulo, es un enlace que nos lleva a la información completa
+<section id="portafolio">
+Se completa con el id en la seccion que queremos que nos lleve
+
+Si fuera para enlaces externos pero en una carpeta del disco duro seria así:
+<a href="/portafolio/">Portafolio</a>
+
+<a href="https://www.youtube.com/watch?v=8eNTBXMqtJo">Ver Platica</a>
+De esta manera hacemos enlace a un vídeo de YouTube 
+
+<a href="https://www.youtube.com/watch?v=8eNTBXMqtJo" target="_blank">Ver Video</a>
+Con el target="_blank" le decimos al link que abra en otra pagina
+
+Estilos en linea
+1. <header style="color:red; background: blue;">
+De esta manera ponemos estilos de manera directa en el html
+
+2. Con una etiqueta dentro del <head> llamada <style>
+        <style>
+            header {
+                background: green;
+            }
+        </style>
+
+Pesa mas el estilo in line, osea directo que con la etiqueta <style>, ósea, si están las dos formas de poner estilo la que vera el usuario es la que se puso directamente en el html
+Pero este prima sobe el del estilos.css, si estuvieran ambos pone el estilo del tag <style>
+
+3. Esta manera es la mas correcta y es crear un archivo diferente llamado estilos.css o como queramos
+<head>
+<link rel="stylesheet" href="estilos.css">
+</head>
+Y hacemos los estilos en ese otro archivo
+
+
+
+Header {
+   Background: green;
+}
+
+
+- regla es el conjunto de los selectores, las declaraciones, as propiedades y los valores: 
+Header {
+   Background: green;
+}
+- la declaración es esta: 
+{
+   Background: green;
+}
+- El header es el selector
+- la propiedad es : Background
+- el valor es: green
+
+Selectores de etiquetas
+-Header, section, article, nav etc
+
+Selector descendente
+Elemento hijo de otro elemento
+-Body header div nav ol li a {
+}
+
+Selector de clase
+- <a class="link" href="#position"
+Para dar formato a las clases lo haríamos así:
+.link {
+}
+
+Selectores de id
+<section id="portafolio">
+Para dar formato seria así:
+#portafolio {
+}
+
+COLORES
+Se pueden representar de tres formas
+1. Palabra clave: 
+red, blue, green etc
+
+2. Usando hexadecimales o rgb()
+#3f3f3f, #e2e2e2, #ffffff #000000 etc
+#FFFFFF = blanco
+#000000 = negro
+El valor minimo es 0 el maximo es F
+#FF	FF	FF
+Red	Verde	Azul
+Ósea
+#FF0000 = Rojo
+#00FF00 = verde
+#0000FF = azul
+
+3. Usando his() hisa()
+
+
+UNIDADES DE MEDIDA
+
+PIXEL, % y otras mas, pero la mas popular es el pixel
+Es la menor unidad homogénea de color que forma parte de una imagen digital 
+
+
+EL INSPECTOR DE ELEMENTOS ES EL MEJOR AMIGO DEL DESARROLALDOR WEB
+Es dar click derecho en la pagina web y abrir inpeccionar
+En mac es cmd + alt + i
+
+Podemos coger una fuente de google-fonos o cualquier otro tercero para ponerla en nuestro proyecto
+
+Para esconder algo al usuario para que no lo vea se le pone
+Display:none
+
+Con eso lo escondemos
+Display: Block = Hace que un elemento ocupe todo el ancho posible
+Display: inline = No hay display block por dentro, un bloque es toda una sección horizontal, un inline espera un poco mas de contenido hacia su costado
+
+Las a href tienen display inline
+
+-cuantos pixeles a la izquierda hay en la siguiente declaración de CSS
+Margin 10px11px12px
+
+-cuanto ocupa un elemento con las siguientes propiedades
+{
+Display block
+Width 99px
+Padding 2px
+}
+
+-cuanto alto ocupa un elemento con las siguientes propiedades
+{
+Display block 
+Height 50px
+}
+
+-con que propiedad se puede poner un texto en negritas
+
+-si tengo un elemento con display flex y flex-direction columna con que propiedad centro su contenido verticalmente
+
+-el modelo caja esta formado por
+
+-con que atributo html le indicamos a una etiqueta omg cual es la ruta de la imagen
+
+
+
+
+
+
+
+
+
+
+
+
